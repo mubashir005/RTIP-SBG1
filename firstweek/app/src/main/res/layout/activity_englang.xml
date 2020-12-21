@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".stopObstacleDetection">
+
+    <TextView
+        android:id="@+id/txtSpeechInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="English Language Activity"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:paddingBottom="@dimen/padding_medium"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="10dp"
+        android:paddingTop="@dimen/padding_medium"
+        android:textSize="26dp"
+        />
+</RelativeLayout>

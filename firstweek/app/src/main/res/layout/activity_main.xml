@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_Horizontal_margin"
+    android:paddingRight="@dimen/activity_Horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <ImageButton
+        android:id="@+id/Speak"
+        android:layout_width="match_parent"
+        android:layout_height="441dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/speeech" />
+
+    <TextView
+        android:id="@+id/txtSpeechInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Main Activety"
+        android:textStyle="bold"
+        android:paddingTop="@dimen/padding_medium"
+        android:layout_marginTop="100dp"
+        android:textSize="26dp"
+         />
+
+
+
+
+
+</LinearLayout>

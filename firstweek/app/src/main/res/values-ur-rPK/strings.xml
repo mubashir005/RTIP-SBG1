@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="urdu">رکاوٹوں کا پتہ لگانا</string>
+    <string name="urdu2">رائے</string>
+    <string name="urdu3">باہر نکلیں</string>
+    <string name="urdu4">اردو زبان</string>
+    <string name="urdu5">رائے</string>
+    <string name="urdu6">باہر نکلیں</string>
+    <string name="urdu7">رہنمائ یشروع کريں</string>
+</resources>

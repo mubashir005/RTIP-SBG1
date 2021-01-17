@@ -5,4 +5,11 @@
     <string name="speech_prompt">Say something&#8230;</string>
     <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
     <string name="tap_on_mic">Tap on mic to speak</string>
+    <string name="urdu">رکاوٹوں کا پتہ لگانا</string>
+    <string name="urdu2">رائے</string>
+    <string name="urdu3">باہر نکلیں</string>
+    <string name="urdu4">اردو زبان</string>
+    <string name="urdu5">رائے</string>
+    <string name="urdu6">باہر نکلیں</string>
+    <string name="urdu7">رہنمائ یشروع کريں</string>
 </resources>

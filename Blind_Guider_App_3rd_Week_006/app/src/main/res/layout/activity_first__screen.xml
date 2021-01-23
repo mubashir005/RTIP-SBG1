@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".First_Screen"
+    android:background="#FFFFFF"
+    >
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:src="@drawable/l"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp"
+        android:id="@+id/l_img"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Blind Guiders"
+        android:textSize="30dp"
+        android:fontFamily="cursive"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:textColor="#2D3875"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Welcome Here"
+        android:textSize="40dp"
+        android:fontFamily="cursive"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="340dp"
+        android:textColor="#2D3875"
+        />
+
+
+
+</RelativeLayout>

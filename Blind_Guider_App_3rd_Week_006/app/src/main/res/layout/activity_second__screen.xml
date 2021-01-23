@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Second_Screen"
+    android:background="#FFFFFF"
+    >
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:src="@drawable/l"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:id="@+id/l_img"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Select Language"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:textColor="#2D3875"
+
+
+        />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="English"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        />
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/m"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="260dp"
+        android:layout_alignRight="@id/editTextTextPersonName2"
+        />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Urdu"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/m"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="310dp"
+        android:layout_alignRight="@id/editTextTextPersonName"
+        />
+
+    <Button
+        android:id="@+id/nextid"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="250dp"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:background="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="360dp"
+        />
+
+</RelativeLayout>

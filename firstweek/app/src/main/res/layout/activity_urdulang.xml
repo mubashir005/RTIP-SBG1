@@ -4,19 +4,76 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".stopObstacleDetection">
+    tools:context=".Urdulang">
+
+    <ImageView
+        android:id="@+id/l_img"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:cropToPadding="false"
+        android:scaleType="fitCenter"
+        android:src="@drawable/l" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="رہنمائی شروع کريں"
+        tools:layout_editor_absoluteX="82dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:width="200dp"
+        android:onClick="obsdet"
+        tools:layout_editor_absoluteY="251dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/urdu2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:width="200dp"
+        tools:layout_editor_absoluteX="82dp"
+        android:onClick="fed"
+        tools:layout_editor_absoluteY="331dp" />
+
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/urdu3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:width="200dp"
+        android:onClick="exit"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="412dp" />
+
+    <ImageButton
+        android:layout_marginTop="350dp"
+        android:id="@+id/Speak3"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/speeech" />
 
     <TextView
         android:id="@+id/txtSpeechInput"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Urdu Language Activity"
+        android:text="@string/urdu4"
         android:textStyle="bold"
-        android:textAlignment="center"
-        android:paddingBottom="@dimen/padding_medium"
-        android:layout_marginTop="300dp"
-        android:layout_marginLeft="10dp"
-        android:paddingTop="@dimen/padding_medium"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="250dp"
+        android:paddingRight="40dp"
+        android:layout_centerHorizontal="true"
         android:textSize="26dp"
         />
+
 </RelativeLayout>

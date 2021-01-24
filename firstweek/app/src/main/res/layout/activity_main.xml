@@ -1,20 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_Horizontal_margin"
-    android:paddingRight="@dimen/activity_Horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin">
+    tools:context=".second_screen">
+
+    <ImageView
+        android:id="@+id/l_img"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:cropToPadding="false"
+        android:scaleType="fitCenter"
+        android:src="@drawable/l" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:scaleType="fitCenter"
+        android:text="Select Language"
+        android:textColor="#2D3875"
+        android:textSize="30dp"
+
+
+        />
+
+    <Button
+        android:id="@+id/bttneng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:ems="10"
+        android:scaleType="fitCenter"
+        android:inputType="textPersonName"
+        android:width="170dp"
+        android:onClick="engactivety"
+        android:text="English" />
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/m"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="260dp"
+        android:layout_alignRight="@id/bttneng"
+        />
+
+    <Button
+        android:id="@+id/bttnurdu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Urdu"
+        android:width="170dp"
+        android:onClick="goToAnActivity"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        />
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/m"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="310dp"
+        android:layout_alignRight="@+id/bttnurdu"
+        />
+
 
     <ImageButton
+        android:layout_marginTop="350dp"
         android:id="@+id/Speak"
-        android:layout_width="match_parent"
-        android:layout_height="441dp"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
         android:background="@null"
         android:scaleType="fitCenter"
+        android:layout_centerHorizontal="true"
         android:src="@drawable/speeech" />
 
     <TextView
@@ -23,8 +90,9 @@
         android:layout_height="wrap_content"
         android:text="Main Activety"
         android:textStyle="bold"
-        android:paddingTop="@dimen/padding_medium"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="250dp"
+        android:layout_centerHorizontal="true"
         android:textSize="26dp"
          />
 
@@ -32,4 +100,4 @@
 
 
 
-</LinearLayout>
+</RelativeLayout>

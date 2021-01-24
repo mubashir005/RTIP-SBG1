@@ -19,6 +19,7 @@ public class MainActivity extends Activity {
     private final int REQ_CODE_SPEECH_INPUT = 1001;
 
     @Override
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -74,13 +75,13 @@ public class MainActivity extends Activity {
                     else if(userinput.toUpperCase().equals("STOP OBSTACLE DETECTION")) {
                         startActivity(new Intent(this, stopObstacleDetection.class));
                     }
-                    else if(userinput.toUpperCase().equals("FEEDBACK")) {
+                    else if(userinput.toUpperCase().equals("FEEDBACK")||userinput.toUpperCase().equals("رائے")) {
                         startActivity(new Intent(this, Feedback.class));
                     }
-                    else if(userinput.toUpperCase().equals("URDU")) {
+                    else if(userinput.toUpperCase().equals("URDU")||userinput.toUpperCase().equals("اردو")) {
                         startActivity(new Intent(this, Urdulang.class));
                     }
-                    else if(userinput.toUpperCase().equals("ENGLISH")) {
+                    else if(userinput.toUpperCase().equals("ENGLISH")||userinput.toUpperCase().equals("انگریزی")) {
                         startActivity(new Intent(this, Englang.class));
                     }
 
@@ -114,6 +115,14 @@ public class MainActivity extends Activity {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
+    }
+
+    public void goToAnActivity(View view) {
+        startActivity(new Intent(this, Urdulang.class));
+    }
+
+    public void engactivety(View view) {
+        startActivity(new Intent(this, Englang.class));
     }
 
 }
